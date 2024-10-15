@@ -287,27 +287,7 @@ if __name__ == '__main__':
                         "output": output
                     }
                     data.append(current_data)
-                    # data of MicJsonNew
-                    # current_system = {
-                    #     "role" : "system",
-                    #     "content" : instruction
-                    # }
-                    # current_user =  {
-                    #     "role": "user",
-                    #     "content": prompt
-                    # }
-                    # current_assistant = {
-                    #     "role": "assistant",
-                    #     "content": output
-                    # }
-                    # data.append(current_system)
-                    # data.append(current_user)
-                    # data.append(current_assistant)
 
-                # print(log)
-                # for i in range(N):
-                #     print(similar_contents[i])
-                #     print(similar_templates[i])
             print(len(data))
             # dir = f"Mic_tuning_data_DBSCAN_{train_sample_ratio}_for_train"
             dir = f"Mic_tuning_data_randomselect_{train_sample_ratio}_for_train"
