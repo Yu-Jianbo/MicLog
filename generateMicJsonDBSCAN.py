@@ -1,12 +1,3 @@
-'''
-generate this kind
-current_data = {
-    "instruction": instruction,
-    "input": prompt,
-    "output": output
-}
-'''
-
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import IsolationForest
